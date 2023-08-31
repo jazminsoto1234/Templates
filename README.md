@@ -18,6 +18,19 @@ int count_char(T &text, char letter){
     return cont;
 }
 ```
+## Ejemplo 2
+```cpp
+#include<cmath>
+template<typename T = int, typename D = int> //Declaracion de templates
+auto potencia(T a, D b){ //Para evitar complicaciones en que tipo de dato elegir, una buena manera es aplicar auto 
+    return pow(a,b);
+}
+```
+
+
+
+
+
 **Main :**
 ```cpp
 auto count = count_char("Esta es una prueba", 'e');
