@@ -38,7 +38,13 @@ int z = potencia(1,2); // Esta de manera implicita es decir no hay necesidasd de
 
 ### Clasificacion de Parametros de template por cantidad
 - Un solo valor
-- Por paquete -> (variado) y se representa `template<typename ...T package>`
+- Por paquete -> (variado) y se representa `template<typename ...Tpackage>`
+
+#### Ejemplo 
+```cpp
+void print(Tpackage... params){
+}
+```
 
 
 
