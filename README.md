@@ -42,8 +42,8 @@ int z = potencia(1,2); // Esta de manera implicita es decir no hay necesidasd de
 
 #### Ejemplo 
 ```cpp
-void print(Tpackage... params){
-}
+void print(Tpackage... params){ //¿Como desempaqueto este template? 
+} //void print<char cons*, int, double, bool>(char const*, int , double, bool);
 ```
 
 
