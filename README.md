@@ -27,6 +27,10 @@ auto potencia(T a, D b){ //Para evitar complicaciones en que tipo de dato elegir
 }
 ```
 
+```cpp
+int z = potencia(1,2); // Esta de manera implicita es decir no hay necesidasd de usar potencia<int>(1,2);
+```
+
 
 
 
