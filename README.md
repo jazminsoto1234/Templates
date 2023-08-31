@@ -31,7 +31,14 @@ auto potencia(T a, D b){ //Para evitar complicaciones en que tipo de dato elegir
 int z = potencia(1,2); // Esta de manera implicita es decir no hay necesidasd de usar potencia<int>(1,2);
 ```
 
+### Clasificacion de Parametros de template
+- Tipo -> typename, class
+- No tipo
+- Template de templates
 
+### Clasificacion de Parametros de template por cantidad
+- Un solo valor
+- Por paquete -> (variado) y se representa `template<typename ...T package>`
 
 
 
